@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-header {/*name for menu items*/
+    background-color: rgba(0, 0, 0, .6);   
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name { /*name for starters*/
+    text-align: center;
+    margin: 0;   
+    font-weight: normal;
+    color: white;
+    font-size: 8em;
+}
+
+.container { /*name for sections*/
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {/*name for headings*/
+   
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn {/*name for addtocart and order*/
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer; 
+    color: white;
+    background-color: #EB5757;    
+    font-weight: bold;
+    display: block;
+    margin: 20px 40px ;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item {/* div class for name,img*/
+    margin: 25px;
+}
+
+.shop-item-title {/* tittle name*/
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {/*img*/
+    height: 100px;
+}
+
+.shop-item-details {/* div class for price,addtocart*/
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price /* price*/
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {/* main div class for items*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header { /* my cart*/
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {/* item,price,quantity*/
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {/* main row class for items to be displayed in rows*/
+    display: flex;
+}
+
+.cart-item {/* each item*/
+    width: 45%;
+}
+
+.cart-price {/* price*/
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {/* quantity*/
+    width: 35%;
+}
+
+.cart-total {/* class for price and tittle*/
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {/* title*/
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {/* total price*/
+    color: #333;
+    font-size: 1.1em;
+}
+
+
+.payment{/*payment*/
+	float:right;
+	font-size: 35px;
+}
